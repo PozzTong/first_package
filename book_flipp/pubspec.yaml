@@ -1,0 +1,25 @@
+name: book_flipp
+description: "A new Flutter package project."
+version: 0.0.1
+homepage:
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  book_flipp:
+    path: ../book_flipp  # Ensure the path points correctly to your local package
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+# Prevents the package from being published
+publish_to: none
+
+flutter:
+  # Add assets or other configurations here, if needed
